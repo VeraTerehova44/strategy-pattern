@@ -14,8 +14,8 @@ namespace SimUDuck
             Duck duck2 = new ReadheaddDuck();
             Duck duck3 = new RubberDuck();
             Duck duck4 = new DecoyDuck();
-            Duck[] strDuck = new Duck[] { duck1, duck2, duck3, duck4 };
-            foreach (Duck duck in strDuck)
+            Duck[] massDuck = new Duck[] { duck1, duck2, duck3, duck4 };
+            foreach (Duck duck in massDuck)
             {
                 Console.WriteLine(duck.swim());
                 Console.WriteLine(duck.display());
@@ -32,3 +32,4 @@ namespace SimUDuck
         }
     }
 }
+
