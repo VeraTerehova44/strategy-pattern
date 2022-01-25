@@ -19,14 +19,7 @@ namespace SimUDuck
             {
                 Console.WriteLine(duck.swim());
                 Console.WriteLine(duck.display());
-                if (duck is Quackble)
-                {
-                    Console.WriteLine((duck as Quackble).quack());
-                }
-                if (duck is Flyable)
-                {
-                    Console.WriteLine((duck as Flyable).fly());
-                }
+                
             }
             Console.ReadLine();
         }

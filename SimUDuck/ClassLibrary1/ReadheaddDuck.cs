@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace SimUDuck
 {
-    public class ReadheaddDuck : Duck, Quackble, Flyable
+    public class ReadheaddDuck : Duck
     {
+        public ReadheaddDuck()
+        {
+            flyBehavior = new FlyWithWings();
+            quckBehavior = new Quack();
+        }
         public override string display()
         {
             return "Красно-головая " + this.GetType();

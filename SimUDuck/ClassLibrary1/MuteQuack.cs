@@ -5,9 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SimUDuck
+
+public class MuteQuack : QuackBehavior
 {
-    public interface Flyable
-    {
-        string fly();
-    }
+	public MuteQuack()
+	{
+		public string quack()
+		{
+			return ""
+		}
+	}
 }

@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace SimUDuck
 {
-    public interface Quackble
+    public interface FlyBehavior
     {
-        string quack();
+        string fly();
     }
 }
-
