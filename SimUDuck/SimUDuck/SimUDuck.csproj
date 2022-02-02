@@ -49,9 +49,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
-      <Project>{9c7ba4f0-824a-4725-a5f5-f4af9500f003}</Project>
-      <Name>ClassLibrary1</Name>
+    <ProjectReference Include="..\..\..\..\..\Downloads\strategy-pattern-main\SimUDuck\ClassLibrary\ClassLibrary.csproj">
+      <Project>{b6c84347-29cc-46af-a0ad-a9b5e3293ebe}</Project>
+      <Name>ClassLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
